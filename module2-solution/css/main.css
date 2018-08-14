@@ -26,18 +26,18 @@ h1{
 
 section {
 	position: relative;
-	border: solid 2px black;
+	border: solid 1px black;
 	background-color: #BCAAA4; 
 	width: 100%;
 }
 
 .section-title{
-	border-left: 2px solid black;
-	border-bottom: 2px solid black;
-	position: relative;
-	width: 40%;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	position: absolute;
+	width: 150px;
 	top: 0px;
-	left: 60%;
+	right: 0px;
 	text-align: center;
 	font-size: 125%;
 }
@@ -55,7 +55,8 @@ section {
 }
 
 p{
-	margin: 10px
+	margin: 10px;
+	margin-top: 40px;
 }
 
 /* Desktop view */
