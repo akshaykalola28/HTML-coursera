@@ -1,0 +1,85 @@
+body {
+	font-size: 16px;
+	color: #000;
+	background-color: #00BCD4;
+}
+
+/************* Header start *************/
+
+#header-nav {
+	background-color: #004D40;
+	color: #fff;
+}
+
+.navbar-default .navbar-brand {
+	height: auto;
+	color: #fff;
+}
+
+.navbar-brand h1 {
+	margin-top: 10px;
+}
+
+.navbar-default .navbar-brand:hover {
+	color: #fff;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #ffffff;
+}
+.navbar-header button.navbar-toggle {
+	margin: 28px;
+}
+
+#nav-list {
+	margin-top: 10px;
+}
+
+#nav-list a {
+	color: #fff;
+	text-align: center;
+	font-size: 1.2em;
+}
+
+#nav-list a:hover {
+	background: #81C784;
+	color: #000;
+}
+
+/*********** Header End ****************/
+
+/*********** Main Content Start **************/
+#main-content h1 {
+	font-weight: bold;
+	margin: 30px;
+}
+
+#chicken, #beef, #sushi {
+	padding: 10px;
+}
+
+.single-section {
+	border: 2px solid #0097A7;
+	padding: 10px;
+	background-color: #FFB300;
+	height: 1000px;
+	overflow: hidden;
+}
+
+.single-section h2 {
+	margin-top: 10px;
+}
+
+.single-section p {
+	text-align: justify;
+	padding: 5px;
+}
+
+#up-botton {
+	float: right;
+	font-size: 3em;
+	margin: 20px;
+	font-weight: bold;
+}
+
+/*********** Main Content End **************/
